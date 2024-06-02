@@ -22,6 +22,10 @@ function fun1(){
             return true;
         }
     }
+        if (isNaN( inputtext )){
+        alert ("Please Enter Student Resident Identity in English Numbers Only")
+        return false;
+    }
 alert ("رقم الاقامة المدخل غير موجود بقاعدة البيانات")
 return false;
 }
